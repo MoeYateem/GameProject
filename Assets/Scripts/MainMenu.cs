@@ -30,6 +30,7 @@ public class MainMenu : MonoBehaviour
     public void PlayGame()
     {
         SceneManager.LoadScene("Game");
+        Console.Write("I love zoozoo");
     }
 
     public void QuitGame()
